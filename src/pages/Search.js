@@ -4,8 +4,8 @@ import GoogleComponent from '../component/GoogleComponent';
 const Search = () => {
   return (
     <div>
-      <nav className='flex flex-row  items-center h-20 p-8 border-2 space-x-5'>
-       <Link to="/" className='w-1/12'> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" /> </Link>
+      <nav className='flex flex-col md:flex-row items-center max-h-fit px-3 md:px-8 py-3 border-2 space-x-5'>
+        <Link to="/" className='w-1/2 md:w-1/12'> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" /> </Link>
        
         <GoogleComponent/>
       
